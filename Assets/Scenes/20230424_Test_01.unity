@@ -242,14 +242,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 22732919}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
+  m_LocalPosition: {x: 0, y: 0.5, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 388525031}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
 --- !u!1 &250539311
 GameObject:
   m_ObjectHideFlags: 0
@@ -1084,7 +1084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameBoard: {fileID: 5599446682270740055, guid: 6545d9f976729de4f948da5441a6c2ba,
     type: 3}
-  player: {fileID: 5325667485872831133, guid: ff074f1bba484874d8b27c8c50ec9c1b, type: 3}
+  player: {fileID: 5325667485872831133, guid: 559e8b7d53195324ba3c62038959fae0, type: 3}
   placeGameBoardButton: {fileID: 495624532}
 --- !u!4 &1127195387
 Transform:
