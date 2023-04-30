@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     private CharacterController controller;
     private Vector3 playerVelocity;
 
-    private float playerSpeed = 0.5f;
+    public float playerSpeed = 0.5f;
 
     private void Start()
     {
