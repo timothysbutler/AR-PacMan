@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5325667485872831132}
   - component: {fileID: 5325667485872831131}
   - component: {fileID: 5325667485872831130}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 5325667485872831133}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1961872034952762591}
@@ -45,11 +45,11 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 0.025
-  m_Radius: 0.025
+  m_Height: 0.1
+  m_Radius: 0.1
   m_SlopeLimit: 45
   m_StepOffset: 0
-  m_SkinWidth: 0.0001
+  m_SkinWidth: 0.01
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5325667485872831130
@@ -64,7 +64,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d0efc8ccfe0aa741b14d4f5136c5231, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 0.15
+  playerSpeed: 1
 --- !u!1001 &5785379337690164321
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77,6 +77,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pac-man1
       objectReference: {fileID: 0}
+    - target: {fileID: 4628542969580462596, guid: 36cc2458247749e41be501b0798bff0c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5435901797397559486, guid: 36cc2458247749e41be501b0798bff0c,
         type: 3}
       propertyPath: m_RootOrder
@@ -85,27 +90,27 @@ PrefabInstance:
     - target: {fileID: 5435901797397559486, guid: 36cc2458247749e41be501b0798bff0c,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.25
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 5435901797397559486, guid: 36cc2458247749e41be501b0798bff0c,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.25
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 5435901797397559486, guid: 36cc2458247749e41be501b0798bff0c,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.25
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 5435901797397559486, guid: 36cc2458247749e41be501b0798bff0c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5435901797397559486, guid: 36cc2458247749e41be501b0798bff0c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.025
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5435901797397559486, guid: 36cc2458247749e41be501b0798bff0c,
         type: 3}

@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     private CharacterController controller;
     private Vector3 playerVelocity;
 
-    public float playerSpeed = 0.5f;
+    public float playerSpeed = 5f;
 
     private void Start()
     {
@@ -48,17 +48,6 @@ public class PlayerController : MonoBehaviour
         } else {
             animator.SetBool("isMoving", false);
         }
-        Debug.Log(movementInput);
+        //Debug.Log(movementInput);
     }
-
-    // private void Animate()
-    // {
-    //     Vector2 movementInput = playerInput.PlayerMovement.Move.ReadValue<Vector2>();
-    //     Vector3 move = new Vector3(movementInput.x, 0f, movementInput.y);
-    //     if(move != Vector3.zero) {
-    //         animator.SetBool("isMoving", true);
-    //     } else {
-    //         animator.SetBool("isMoving", false);
-    //     }
-    // }
 }

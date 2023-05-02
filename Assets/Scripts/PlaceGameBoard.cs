@@ -12,7 +12,7 @@ public class PlaceGameBoard : MonoBehaviour
 
     private GameObject newPlayer;
     public GameObject player;
-    
+    private Vector3 playerSpawnOffset;
 
     public Button placeGameBoardButton;
 
@@ -22,7 +22,7 @@ public class PlaceGameBoard : MonoBehaviour
         showGameBoardIndicator = FindObjectOfType<ShowGameBoardIndicator> ();
         gameBoard.SetActive(false);
         player.SetActive(false);
-
+        playerSpawnOffset = new Vector3(0f,-0.17f,0.5f);
         placeGameBoardButton = GameObject.FindObjectOfType<Button> ();
     }
 
@@ -34,7 +34,7 @@ public class PlaceGameBoard : MonoBehaviour
                 newGameBoard.SetActive(true);
             }
         }
-        newPlayer = Instantiate(player, showGameBoardIndicator.transform.position, showGameBoardIndicator.transform.rotation);
+        newPlayer = Instantiate(player, showGameBoardIndicator.transform.position-playerSpawnOffset, showGameBoardIndicator.transform.rotation);
         if (!newPlayer.activeInHierarchy) {
             {
                 newPlayer.SetActive(true);
@@ -42,6 +42,7 @@ public class PlaceGameBoard : MonoBehaviour
         }
         HideButton();
         HideIndicator();
+        // HidePlanes();
     }
 
     void HideButton() {
@@ -51,4 +52,8 @@ public class PlaceGameBoard : MonoBehaviour
     void HideIndicator() {
         showGameBoardIndicator.gameObject.SetActive(false);
     }
+
+    // void HidePlanes() {
+
+    // }
 }
