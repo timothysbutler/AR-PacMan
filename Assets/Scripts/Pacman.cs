@@ -1,18 +1,26 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Pacman : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Movement movement { get; private set; }
+    private void Awake()
     {
-        
+        this.movement = GetComponent<Movement>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.UpArrow)) {
+            this.movement.SetDirection(Vector3.forward);
+        }
+        else if (Input.GetKeyDown(KeyCode.DownArrow)) {
+            this.movement.SetDirection(Vector3.back);
+        }
+        else if (Input.GetKeyDown(KeyCode.LeftArrow)) {
+            this.movement.SetDirection(Vector2.left);
+        }
+        else if (Input.GetKeyDown(KeyCode.RightArrow)) {
+            this.movement.SetDirection(Vector2.right);
+        }
     }
 }
