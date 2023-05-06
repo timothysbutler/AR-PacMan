@@ -34,13 +34,23 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Move();
-        //Animate();
     }
 
     private void Move()
     {
         Vector2 movementInput = playerInput.PlayerMovement.Move.ReadValue<Vector2>();
-        Vector3 move = new Vector3(movementInput.x, 0f, movementInput.y);
+        Vector3 move = new Vector3 (movementInput.x,0f,movementInput.y);
+        Vector3 xOnly = new Vector3 (1f,0f,0f);
+        Vector3 yOnly = new Vector3 (0f, 0f, 1f);
+
+        // only move up/down or left/right
+        if (Math.Abs(movementInput.x) > Math.Abs(movementInput.y)) {
+            move = Vector3.Scale(move, xOnly);
+        } else {
+            move = Vector3.Scale(move, yOnly);
+        }
+
+        
         controller.Move(move * Time.deltaTime * playerSpeed);
         if(move != Vector3.zero) {
             gameObject.transform.forward = move;
@@ -48,6 +58,5 @@ public class PlayerController : MonoBehaviour
         } else {
             animator.SetBool("isMoving", false);
         }
-        //Debug.Log(movementInput);
     }
 }
