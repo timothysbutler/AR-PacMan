@@ -26,7 +26,7 @@ public class ShowGameBoardIndicator: MonoBehaviour
     {
         var ray = new Vector2(Screen.width/2, Screen.height/2);
 
-        if (raycastManager.Raycast(ray, hits, TrackableType.Planes)) {
+        if (raycastManager.Raycast(ray, hits, TrackableType.PlaneWithinPolygon)) {
             foreach (var hit in hits) {
                 Debug.Log(hit);
             }

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 502005517897172807}
   - component: {fileID: 7696980773600178386}
   - component: {fileID: 7965071801734246926}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: pac-man
   m_TagString: Untagged
   m_Icon: {fileID: 0}
