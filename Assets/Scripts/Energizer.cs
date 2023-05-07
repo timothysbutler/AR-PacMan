@@ -20,7 +20,7 @@ using UnityEngine;
 
 public class Energizer : MonoBehaviour
 {
-    public int points = 10;
+    public int points = 50;
 
     protected virtual void EnergizerEat()
     {
