@@ -13,6 +13,8 @@ public class Movement : MonoBehaviour
     public Vector3 nextDirection { get; private set; }
     public Vector3 startingPosition { get; private set; }
 
+    RaycastHit hit;
+
     private void Awake()
     {
         this.rigidbody = GetComponent<Rigidbody>();
@@ -63,9 +65,13 @@ public class Movement : MonoBehaviour
 
     public bool Occupied(Vector3 direction)
     {
-        RaycastHit2D hit = Physics2D.BoxCast(this.transform.position, Vector3.one * 0.75f, 0.0f, direction, 1.5f, this.obstacleLayer);
-        return hit.collider != null;
+        if (Physics.BoxCast(this.transform.position, transform.localScale /2, direction, out hit, transform.rotation, 1.1f, this.obstacleLayer))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }
-
-
