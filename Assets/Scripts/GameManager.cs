@@ -3,8 +3,10 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public Ghost[] ghosts;
-    public Pacman pacman;
+    // public Player pacman;
+    public PlayerController pacman;
     public Transform pellets;
+    public Energizer energizer;
 
     public int ghostMulti { get; private set; }
     public int score { get; private set; }
@@ -94,20 +96,26 @@ public class GameManager : MonoBehaviour
 
         if (!CheckPelletCount())
         {
-            this.pacman.gameObject.SetActive(false);
-            Invoke(nameof(NewRound), 3.0f);
+            // this.pacman.gameObject.SetActive(false);
+            // Invoke(nameof(NewRound), 3.0f);
         }
     }
 
     public void EnergizerEaten(Energizer energizer)
     {
+        energizer.gameObject.SetActive(false);
 
+        SetScore(this.score + energizer.points);
+
+        // power up pacman
+        // ghosts scared
     }
 
     private bool CheckPelletCount()
     {
         foreach( Transform pellet in this.pellets)
         {
+            Debug.Log(pellet);
             if (pellet.gameObject.activeSelf) {
                 return true;
             }

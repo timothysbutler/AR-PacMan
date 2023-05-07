@@ -27,9 +27,9 @@ public class ShowGameBoardIndicator: MonoBehaviour
         var ray = new Vector2(Screen.width/2, Screen.height/2);
 
         if (raycastManager.Raycast(ray, hits, TrackableType.Planes)) {
-            foreach (var hit in hits) {
-                Debug.Log(hit);
-            }
+            // foreach (var hit in hits) {
+            //     Debug.Log(hit.distance);
+            // }
             Pose hitPose = hits[0].pose;
 
             transform.position = hitPose.position;
