@@ -63,6 +63,7 @@ public class Movement : MonoBehaviour
         }
     }
 
+    // !!WORKING ON THIS!! //
     public bool Occupied(Vector3 direction)
     {
         if (Physics.BoxCast(this.transform.position, transform.localScale /2, direction, out hit, transform.rotation, 1.1f, this.obstacleLayer))

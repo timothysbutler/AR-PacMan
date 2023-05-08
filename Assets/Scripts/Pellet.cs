@@ -12,7 +12,6 @@ public class Pellet : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Pacman") {
-            Debug.Log("ate pellet");
             Eat();
         }
     }
