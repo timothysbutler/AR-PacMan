@@ -8,7 +8,7 @@ using UnityEngine.XR.ARSubsystems;
 public class PlaceGameBoard : MonoBehaviour
 {
     private ShowGameBoardIndicator showGameBoardIndicator;
-    private ARPlaneManager arPlaneManager;
+    public ARPlaneManager arPlaneManager;
 
     private GameObject newGameBoard;
     public GameObject gameBoard;
@@ -122,13 +122,14 @@ public class PlaceGameBoard : MonoBehaviour
         showGameBoardIndicator.gameObject.SetActive(false);
     }
 
+    // comment this function for testing on simulator
     void stopPlaneDetection() {
-        // stop detection of new planes
-        arPlaneManager.enabled = false;
-
         // hide currently detected/tracked planes
-        foreach (ARPlane plane in arPlaneManager.trackables) {
-            plane.gameObject.SetActive(false);
-        }
+        // foreach (ARPlane plane in arPlaneManager.trackables) {
+        //     plane.gameObject.SetActive(false);
+        // }
+
+        // stop detection of new planes
+        // arPlaneManager.enabled = false;
     }
 }
