@@ -13,7 +13,7 @@ public class ScoreText : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        scorePrefix = "Score: ";
+        scorePrefix = "1UP\n";
         scoreText = GetComponent<TMPro.TMP_Text>();
         
     }

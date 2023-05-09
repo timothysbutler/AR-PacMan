@@ -106,8 +106,8 @@ public class GameManager : MonoBehaviour
 
         if (!CheckPelletCount())
         {
-            this.pacman.gameObject.SetActive(false);
-            Invoke(nameof(NewRound), 3.0f);
+            // this.pacman.gameObject.SetActive(false);
+            // Invoke(nameof(NewRound), 3.0f);
         }
     }
 
@@ -127,12 +127,10 @@ public class GameManager : MonoBehaviour
     {
         foreach( Transform pellet in this.pellets)
         {
-            //Debug.Log(pellet);
             if (pellet.gameObject.activeSelf) {
                 return true;
             }
         }
-
         return false;
     }
 
