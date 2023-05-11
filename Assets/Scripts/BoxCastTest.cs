@@ -5,6 +5,7 @@ using UnityEngine;
 public class BoxCastTest : MonoBehaviour
 {
     public LayerMask obstacleLayer;
+    public Vector3 box;
     void Start()
     {
 
@@ -17,16 +18,16 @@ public class BoxCastTest : MonoBehaviour
 
     void OnDrawGizmos()
     {
+        this.box = new Vector3(0.94f, 0.94f, 0.94f);
         float maxDistance = 100f;
         RaycastHit hit;
 
-        bool isHit = Physics.BoxCast(transform.position, transform.lossyScale /2, transform.forward, out hit, transform.rotation, maxDistance, this.obstacleLayer);
+        bool isHit = Physics.BoxCast(transform.position, this.box /2, transform.forward, out hit, transform.rotation, maxDistance, this.obstacleLayer);
         if (isHit)
         {
-            print("HIT");
             Gizmos.color = Color.red;
             Gizmos.DrawRay(transform.position, transform.forward * hit.distance);
-            Gizmos.DrawWireCube(transform.position + transform.forward * hit.distance, transform.lossyScale);
+            Gizmos.DrawWireCube(transform.position + transform.forward * hit.distance, this.box);
         }
         else
         {

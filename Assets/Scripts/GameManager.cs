@@ -1,3 +1,15 @@
+//-----------------------------------------------------------//
+// Authors: Timothy Butler and Nick Thomas
+// Date Last Modified: May 11th, 2023
+// Course: CS 497 - 400
+// Oregon State University
+// Source(s):
+// (1) https://www.youtube.com/watch?v=TKt_VlMn_aA
+// (2) https://www.youtube.com/watch?v=B34iq4O5ZYI
+// (3) https://docs.unity3d.com/Manual/CollidersOverview.html
+// (4) https://noobtuts.com/unity/2d-pacman-game
+//-----------------------------------------------------------//
+
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -18,7 +30,7 @@ public class GameManager : MonoBehaviour
         NewGame();
     }
 
-    // New Game run at the beginning and a restart
+    // Run at the beginning and at restart
     private void NewGame()
     {
         SetScore(0);
@@ -26,7 +38,7 @@ public class GameManager : MonoBehaviour
         //NewRound();
     }
 
-    // New Round, Set everything back and increase variables
+    // New Round, Set everything back and increase variables (if needed)
     private void NewRound()
     {
         ResetGhostMulti();
@@ -42,7 +54,7 @@ public class GameManager : MonoBehaviour
         this.pacman.gameObject.SetActive(true);
     }
 
-    // If death, reset the player and ghosts, but keep pellets as the are.
+    // If death, reset the player and ghosts, but keep pellets.
     private void ResetState()
     {
         ResetGhostMulti();
@@ -106,8 +118,8 @@ public class GameManager : MonoBehaviour
 
         if (!CheckPelletCount())
         {
-            // this.pacman.gameObject.SetActive(false);
-            // Invoke(nameof(NewRound), 3.0f);
+            this.pacman.gameObject.SetActive(false);
+            Invoke(nameof(NewRound), 3.0f);
         }
     }
 
