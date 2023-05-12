@@ -1,7 +1,7 @@
 //-------------------------------------------------------------------//
 // Authors: Timothy Butler and Nick Thomas
 // Date Last Modified: May 11th, 2023
-// Course: CS 497 - 400
+// Course: CS 467 - 400
 // Oregon State University
 // Source(s):
 // (1) https://www.youtube.com/watch?v=TKt_VlMn_aA
