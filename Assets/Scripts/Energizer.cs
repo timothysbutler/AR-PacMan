@@ -1,21 +1,15 @@
-// using System.Collections;
-// using System.Collections.Generic;
-// using UnityEngine;
+//-----------------------------------------------------------//
+// Authors: Timothy Butler and Nick Thomas
+// Date Last Modified: May 11th, 2023
+// Course: CS 497 - 400
+// Oregon State University
+// Source(s):
+// (1) https://www.youtube.com/watch?v=TKt_VlMn_aA
+// (2) https://www.youtube.com/watch?v=B34iq4O5ZYI
+// (3) https://docs.unity3d.com/Manual/CollidersOverview.html
+// (4) https://noobtuts.com/unity/2d-pacman-game
+//-----------------------------------------------------------//
 
-// public class Energizer : MonoBehaviour
-// {
-//     // Start is called before the first frame update
-//     void Start()
-//     {
-        
-//     }
-
-//     // Update is called once per frame
-//     void Update()
-//     {
-        
-//     }
-// }
 using UnityEngine;
 
 public class Energizer : MonoBehaviour
@@ -30,7 +24,6 @@ public class Energizer : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Pacman") {
-            Debug.Log("collision with energizer");
             EnergizerEat();
         }
     }
