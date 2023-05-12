@@ -1,10 +1,22 @@
+//-----------------------------------------------------------//
+// Authors: Timothy Butler and Nick Thomas
+// Date Last Modified: May 11th, 2023
+// Course: CS 497 - 400
+// Oregon State University
+// Source(s):
+// (1) https://www.youtube.com/watch?v=TKt_VlMn_aA
+// (2) https://www.youtube.com/watch?v=B34iq4O5ZYI
+// (3) https://docs.unity3d.com/Manual/CollidersOverview.html
+// (4) https://noobtuts.com/unity/2d-pacman-game
+//-----------------------------------------------------------//
+
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public Ghost[] ghosts;
-    // public Player pacman;
-    public PlayerController pacman;
+    public Pacman pacman;
+    //public PlayerController pacman;
     public Transform pellets;
     public Energizer energizer;
 
@@ -12,13 +24,19 @@ public class GameManager : MonoBehaviour
     public int score { get; private set; }
     public int lives { get; private set; }
 
+    public AudioSource siren;
+    public AudioSource munch1;
+    public AudioSource munch2;
+    private int munchNumber = 0;
+
     // Start the Game
     private void Start()
     {
         NewGame();
+        siren.Play();
     }
 
-    // New Game run at the beginning and a restart
+    // Run at the beginning and at restart
     private void NewGame()
     {
         SetScore(0);
@@ -26,7 +44,7 @@ public class GameManager : MonoBehaviour
         //NewRound();
     }
 
-    // New Round, Set everything back and increase variables
+    // New Round, Set everything back and increase variables (if needed)
     private void NewRound()
     {
         ResetGhostMulti();
@@ -42,7 +60,7 @@ public class GameManager : MonoBehaviour
         this.pacman.gameObject.SetActive(true);
     }
 
-    // If death, reset the player and ghosts, but keep pellets as the are.
+    // If death, reset the player and ghosts, but keep pellets.
     private void ResetState()
     {
         ResetGhostMulti();
@@ -101,13 +119,23 @@ public class GameManager : MonoBehaviour
     public void PelletEaten(Pellet pellet)
     {
         pellet.gameObject.SetActive(false);
-
         SetScore(this.score + pellet.points);
+
+        if (munchNumber == 0)
+        {
+            munch1.Play();
+            munchNumber = 1;
+        }
+        else if (munchNumber == 1)
+        {
+            munch2.Play();
+            munchNumber = 0;
+        }
 
         if (!CheckPelletCount())
         {
-            // this.pacman.gameObject.SetActive(false);
-            // Invoke(nameof(NewRound), 3.0f);
+            this.pacman.gameObject.SetActive(false);
+            Invoke(nameof(NewRound), 3.0f);
         }
     }
 
@@ -117,7 +145,8 @@ public class GameManager : MonoBehaviour
         energizer.gameObject.SetActive(false);
 
         SetScore(this.score + energizer.points);
-
+        //CancelInvoke();
+        //Invoke(nameof(ResetGhostMulti), energizer.duration);
         // power up pacman
         // ghosts scared
     }
@@ -134,7 +163,7 @@ public class GameManager : MonoBehaviour
         return false;
     }
 
-    // Reset the ghost multiplyer
+    // Reset the Ghost multiplyer
     private void ResetGhostMulti() 
     {
         this.ghostMulti = 1;

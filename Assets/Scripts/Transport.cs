@@ -12,19 +12,19 @@
 
 using UnityEngine;
 
-public class Energizer : MonoBehaviour
+public class Transport : MonoBehaviour
 {
-    public int points = 50;
 
-    protected virtual void EnergizerEat()
-    {
-        FindObjectOfType<GameManager>().EnergizerEaten(this);
-    }
+    public Transform connection;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Pacman") {
-            EnergizerEat();
+        // If collision with Transport Cube, transport
+        if (other.gameObject.tag == "Transport") 
+        {
+            Vector3 position = connection.position;
+            position.z = other.transform.position.z;
+            other.transform.position = position;
         }
     }
 }
