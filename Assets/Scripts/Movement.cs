@@ -27,10 +27,14 @@ public class Movement : MonoBehaviour
 
     RaycastHit hit;
 
+    private Animator animator;
+
     private void Awake()
     {
         this.rigidbody = GetComponent<Rigidbody>();
         this.startingPosition = this.transform.position;
+        animator = GetComponentInChildren<Animator> ();
+
     }
 
     private void Start()
@@ -54,11 +58,13 @@ public class Movement : MonoBehaviour
         // If nextDirection is NOT zero, then set the new direction
         if (this.nextDirection != Vector3.zero) {
             SetDirection(this.nextDirection);
+            // animator.SetBool("isMoving", true);  // animate pac=man's mouth if moving
         }
         // Continuously check for walls if going in a straight line
         if (Occupied(this.direction)) 
         {
             this.direction = Vector3.zero;
+            // animator.SetBool("isMoving", false);  // turn off animation if stopped
         }
     }
 
@@ -68,6 +74,12 @@ public class Movement : MonoBehaviour
         Vector3 position = this.rigidbody.position;
         Vector3 translation = this.direction * this.speed * this.speedMulti * Time.fixedDeltaTime;
         this.rigidbody.MovePosition(position + translation);
+        
+        // Rotate the character based on direction of travel
+        this.rigidbody.rotation = rotate(translation);
+
+        // Animate Pac-Man
+        animate(translation);
     }
 
     public void SetDirection(Vector3 direction, bool forced = false)
@@ -88,15 +100,39 @@ public class Movement : MonoBehaviour
     {
         // This section was modified from Source(1)
         // Set the box for BoxCast size a little smaller than 1x1x1 cube
-        this.box = new Vector3(0.94f, 0.94f, 0.94f);
+        this.box = new Vector3(0.93f, 0.93f, 0.93f);
         // Check to see if there is a collision or 'hit' and return boolean
-        if (Physics.BoxCast(this.transform.position, this.box /2, direction, out hit, transform.rotation, 0.05f, this.obstacleLayer))
+        if (Physics.BoxCast(this.transform.position, this.box /2, direction, out hit, transform.rotation, 0.07f, this.obstacleLayer))
         {
             return true;
         }
         else 
         {
             return false;
+        }
+    }
+    public Quaternion rotate(Vector3 translation) {
+        // define the rotation needed for pac-man based on the direction of travel
+        if (translation.x > 0){
+            return Quaternion.Euler(0, 270, 0);
+        } else if (translation.x < 0) {
+            return Quaternion.Euler(0, 90, 0);
+        } else if (translation.z > 0) {
+            return Quaternion.Euler(0,180,0);
+        } else if (translation.z < 0) {
+            return Quaternion.Euler(0,0,0);
+        }
+        // else keep the current rotational orientation
+        return Quaternion.Euler(this.rigidbody.rotation.eulerAngles);
+    }
+
+    public void animate(Vector3 translation) 
+    {
+        // Update Animation of character, whether moving/not-moving        
+        if (translation != Vector3.zero) {
+            animator.SetBool("isMoving", true);  // animate pac-man's mouth if moving
+        } else {
+            animator.SetBool("isMoving", false);  // turn off animation if not moving
         }
     }
 }

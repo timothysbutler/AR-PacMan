@@ -18,6 +18,7 @@ public class PlaceGameBoard : MonoBehaviour
     private GameObject newPlayer;
     public GameObject player;
     private Vector3 playerSpawnOffset;
+    private Quaternion playerRotationOffset;
     private Vector3 playerScale;
 
     private GameObject newGrid;
@@ -50,6 +51,7 @@ public class PlaceGameBoard : MonoBehaviour
         scoreValue.SetActive(false);
 
         playerSpawnOffset = new Vector3(0f,0.5f,-4.5f);
+        playerRotationOffset = Quaternion.Euler(0,180,0);
         playerScale = new Vector3(4.2f,4.2f,4.2f);
 
         gridSpawnOffset = new Vector3(0f,0.5f, 0f);
@@ -76,12 +78,11 @@ public class PlaceGameBoard : MonoBehaviour
                 newGameBoard.SetActive(true);
             }
         }
-        newPlayer = Instantiate(player, showGameBoardIndicator.transform.position+playerSpawnOffset, newGameBoard.transform.rotation);
+        newPlayer = Instantiate(player, showGameBoardIndicator.transform.position+playerSpawnOffset, showGameBoardIndicator.transform.rotation*playerRotationOffset);
         newPlayer.transform.localScale = playerScale;
         if (!newPlayer.activeInHierarchy) {
             {
                 newPlayer.SetActive(true);
-                newPlayer.tag = "Pacman";
             }
         }
 

@@ -26,7 +26,7 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
     public bool SnapY { get { return snapY; } set { snapY = value; } }
 
     [SerializeField] private float handleRange = 1;
-    [SerializeField] private float deadZone = 0;
+    [SerializeField] private float deadZone = 0.15f;
     [SerializeField] private AxisOptions axisOptions = AxisOptions.Both;
     [SerializeField] private bool snapX = false;
     [SerializeField] private bool snapY = false;
@@ -38,7 +38,7 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
     private Canvas canvas;
     private Camera cam;
 
-    private Vector2 input = Vector2.zero;
+    public Vector2 input = Vector2.zero;
 
     protected virtual void Start()
     {
@@ -69,7 +69,7 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
             cam = canvas.worldCamera;
 
         Vector2 position = RectTransformUtility.WorldToScreenPoint(cam, background.position);
-        Vector2 radius = background.sizeDelta / 2;
+        Vector2 radius = background.sizeDelta / 4;
         input = (eventData.position - position) / (radius * canvas.scaleFactor);
         FormatInput();
         HandleInput(input.magnitude, input.normalized, radius, cam);
