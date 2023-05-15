@@ -9,6 +9,7 @@ TagManager:
   - Pacman
   - Ghost
   - Joystick
+  - Transport
   layers:
   - Default
   - TransparentFX

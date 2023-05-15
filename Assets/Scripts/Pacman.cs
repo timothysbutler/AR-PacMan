@@ -22,7 +22,7 @@ public class Pacman : MonoBehaviour
     public Joystick joystick;
 
     private void Awake() {
-        joystick = FindObjectOfType<Joystick> ();
+        //joystick = FindObjectOfType<Joystick> ();
         // playerInput = new Player();
         this.movement = GetComponent<Movement>();
         animator = GetComponentInChildren<Animator> ();
@@ -30,41 +30,36 @@ public class Pacman : MonoBehaviour
 
     void Update()
     {
-        Move();
-    }
-
-    private void Move()
-    {
         // Get input from on screen joystick
-        Vector2 joystickInput = joystick.input;
+        //Vector2 joystickInput = joystick.input;
 
         // only move up/down or left/right
-        if (Math.Abs(joystickInput.x) > Math.Abs(joystickInput.y)) {
-            if (joystickInput.x > 0.2) {  // Deadzone of 0.2
-                this.movement.SetDirection(Vector2.right);
-                ////this.rotation = this.rotation*Quaternion.AngleAxis(joystickInput.x, Vector3.forward);
-            } else if (joystickInput.x < -0.2) {  // Deadzone of 0.2
-                this.movement.SetDirection(Vector2.left);
-            }
-        } else if (Math.Abs(joystickInput.x) < Math.Abs(joystickInput.y)){
-            if (joystickInput.y > 0.2) {  // Deadzone of 0.2 
-                this.movement.SetDirection(Vector3.forward);
-            } else if (joystickInput.y < -0.2) {  // Deadzone of 0.2
-                this.movement.SetDirection(Vector3.back);
-            }
-        }
+        // if (Math.Abs(joystickInput.x) > Math.Abs(joystickInput.y)) {
+        //     if (joystickInput.x > 0.2) {  // Deadzone of 0.2
+        //         this.movement.SetDirection(Vector2.right);
+        //         ////this.rotation = this.rotation*Quaternion.AngleAxis(joystickInput.x, Vector3.forward);
+        //     } else if (joystickInput.x < -0.2) {  // Deadzone of 0.2
+        //         this.movement.SetDirection(Vector2.left);
+        //     }
+        // } else if (Math.Abs(joystickInput.x) < Math.Abs(joystickInput.y)){
+        //     if (joystickInput.y > 0.2) {  // Deadzone of 0.2 
+        //         this.movement.SetDirection(Vector3.forward);
+        //     } else if (joystickInput.y < -0.2) {  // Deadzone of 0.2
+        //         this.movement.SetDirection(Vector3.back);
+        //     }
+        // }
             
         if (Input.GetKeyDown(KeyCode.UpArrow)) {
-            this.movement.SetDirection(Vector3.forward);
-        }
-        else if (Input.GetKeyDown(KeyCode.DownArrow)) {
             this.movement.SetDirection(Vector3.back);
         }
+        else if (Input.GetKeyDown(KeyCode.DownArrow)) {
+            this.movement.SetDirection(Vector3.forward);
+        }
         else if (Input.GetKeyDown(KeyCode.LeftArrow)) {
-            this.movement.SetDirection(Vector2.left);
+            this.movement.SetDirection(Vector2.right);
         }
         else if (Input.GetKeyDown(KeyCode.RightArrow)) {
-            this.movement.SetDirection(Vector2.right);
+            this.movement.SetDirection(Vector2.left);
         }
 
     }

@@ -1,0 +1,34 @@
+{
+    "name": "Test",
+    "maps": [
+        {
+            "name": "PacMan",
+            "id": "ff2b4d27-8ef3-4ce3-a121-11254c10302f",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "241b09b3-b421-457c-b7b7-2ff564fee2c0",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d05482d1-7dd6-4c64-b774-e2cdf554a689",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

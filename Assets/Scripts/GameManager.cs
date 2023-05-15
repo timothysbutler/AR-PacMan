@@ -27,6 +27,8 @@ public class GameManager : MonoBehaviour
     public AudioSource siren;
     public AudioSource munch1;
     public AudioSource munch2;
+    public AudioSource powerUp;
+    public AudioSource ghostEaten;
     private int munchNumber = 0;
 
     // Start the Game
@@ -96,6 +98,7 @@ public class GameManager : MonoBehaviour
     // If Ghosts are eaten, increase score and score multiplyer, and then reset ghosts
     public void GhostEaten(Ghost ghost)
     {
+        ghostEaten.Play();
         int points = ghost.points * this.ghostMulti;
         SetScore(this.score + points);
         this.ghostMulti++;
@@ -142,6 +145,7 @@ public class GameManager : MonoBehaviour
     // If energizer gets eaten, increase score, turn ghosts to blue
     public void EnergizerEaten(Energizer energizer)
     {
+
         energizer.gameObject.SetActive(false);
 
         SetScore(this.score + energizer.points);

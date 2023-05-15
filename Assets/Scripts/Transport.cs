@@ -19,8 +19,8 @@ public class Transport : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // If collision with Transport Cube, transport
-        if (other.gameObject.tag == "Transport") 
+        // If collision with Transport Cube is Pacman, transport
+        if (other.gameObject.tag == "Pacman") 
         {
             Vector3 position = connection.position;
             position.z = other.transform.position.z;
