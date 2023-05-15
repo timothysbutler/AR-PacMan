@@ -137,6 +137,7 @@ public class GameManager : MonoBehaviour
 
         if (!CheckPelletCount())
         {
+            Debug.Log("All Gone");
             //this.pacman.gameObject.SetActive(false);
             //Invoke(nameof(NewRound), 3.0f);
         }
