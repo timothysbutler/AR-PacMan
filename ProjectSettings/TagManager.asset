@@ -10,6 +10,7 @@ TagManager:
   - Ghost
   - Joystick
   - Transport
+  - Node
   layers:
   - Default
   - TransparentFX
