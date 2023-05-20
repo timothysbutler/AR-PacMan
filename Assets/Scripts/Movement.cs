@@ -76,10 +76,10 @@ public class Movement : MonoBehaviour
         this.rigidbody.MovePosition(position + translation);
         
         // Rotate the character based on direction of travel
-        this.rigidbody.rotation = rotate(translation);
+        //this.rigidbody.rotation = rotate(translation);
 
         // Animate Pac-Man
-        animate(translation);
+        //animate(translation);
     }
 
     public void SetDirection(Vector3 direction, bool forced = false)
@@ -111,7 +111,8 @@ public class Movement : MonoBehaviour
             return false;
         }
     }
-    public Quaternion rotate(Vector3 translation) {
+
+    /*public Quaternion rotate(Vector3 translation) {
         // define the rotation needed for pac-man based on the direction of travel
         if (translation.x > 0){
             return Quaternion.Euler(0, 270, 0);
@@ -134,6 +135,6 @@ public class Movement : MonoBehaviour
         } else {
             animator.SetBool("isMoving", false);  // turn off animation if not moving
         }
-    }
+    }*/
 }
 

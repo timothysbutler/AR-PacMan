@@ -30,6 +30,8 @@ public class Pacman : MonoBehaviour
 
     void Update()
     {
+        //UNCOMMENT FOR JOYSTICK//
+
         // Get input from on screen joystick
         //Vector2 joystickInput = joystick.input;
 
@@ -48,19 +50,30 @@ public class Pacman : MonoBehaviour
         //         this.movement.SetDirection(Vector3.back);
         //     }
         // }
-            
-        if (Input.GetKeyDown(KeyCode.UpArrow)) {
+
+        // For Keyboard testing
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
             this.movement.SetDirection(Vector3.back);
         }
-        else if (Input.GetKeyDown(KeyCode.DownArrow)) {
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
             this.movement.SetDirection(Vector3.forward);
         }
-        else if (Input.GetKeyDown(KeyCode.LeftArrow)) {
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
             this.movement.SetDirection(Vector2.right);
         }
-        else if (Input.GetKeyDown(KeyCode.RightArrow)) {
+        else if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
             this.movement.SetDirection(Vector2.left);
         }
+    }
 
+    public void ResetState()
+    {
+        this.movement.ResetState();
+        this.gameObject.SetActive(true);
     }
 }
+
