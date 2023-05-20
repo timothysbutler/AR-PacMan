@@ -11,12 +11,11 @@ GameObject:
   - component: {fileID: 5435901797397559486}
   - component: {fileID: 502005517897172807}
   - component: {fileID: 7965071801734246926}
-  - component: {fileID: -2764399399332687156}
   - component: {fileID: 8299188908191300803}
   - component: {fileID: 7589922930342600984}
-  - component: {fileID: -9051408269163378892}
-  - component: {fileID: -654711900199861043}
   - component: {fileID: 551666571688173981}
+  - component: {fileID: -2764399399332687156}
+  - component: {fileID: -9051408269163378892}
   m_Layer: 0
   m_Name: Pacman
   m_TagString: Pacman
@@ -113,24 +112,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &-2764399399332687156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4628542969580462596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7be86344ca034a44994f6b466c296d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  speedMulti: 1
-  initialDirection: {x: 0, y: 0, z: 0}
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 64
 --- !u!54 &8299188908191300803
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -165,33 +146,6 @@ CharacterController:
   m_SkinWidth: 0.01
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-9051408269163378892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4628542969580462596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 319450ee80b404a768374fec3ac50bef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &-654711900199861043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4628542969580462596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e509d18bd54f24e96a9cb0609e97bf26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 64
 --- !u!135 &551666571688173981
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -205,3 +159,34 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.005
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-2764399399332687156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4628542969580462596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7be86344ca034a44994f6b466c296d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  speedMulti: 1
+  initialDirection: {x: 0, y: 0, z: 0}
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!114 &-9051408269163378892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4628542969580462596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 319450ee80b404a768374fec3ac50bef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  joystick: {fileID: 0}
