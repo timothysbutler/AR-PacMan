@@ -25,7 +25,7 @@ public class Movement : MonoBehaviour
     public Vector3 startingPosition { get; private set; }
     public Vector3 box { get; private set; }
 
-    RaycastHit hit;
+    public RaycastHit hit;
 
     private Animator animator;
 
@@ -58,13 +58,13 @@ public class Movement : MonoBehaviour
         // If nextDirection is NOT zero, then set the new direction
         if (this.nextDirection != Vector3.zero) {
             SetDirection(this.nextDirection);
-            // animator.SetBool("isMoving", true);  // animate pac=man's mouth if moving
+            //animator.SetBool("isMoving", true);  // animate pac=man's mouth if moving
         }
         // Continuously check for walls if going in a straight line
         if (Occupied(this.direction)) 
         {
             this.direction = Vector3.zero;
-            // animator.SetBool("isMoving", false);  // turn off animation if stopped
+            //animator.SetBool("isMoving", false);  // turn off animation if stopped
         }
     }
 
@@ -112,7 +112,7 @@ public class Movement : MonoBehaviour
         }
     }
 
-    /*public Quaternion rotate(Vector3 translation) {
+    public Quaternion rotate(Vector3 translation) {
         // define the rotation needed for pac-man based on the direction of travel
         if (translation.x > 0){
             return Quaternion.Euler(0, 270, 0);
@@ -135,6 +135,6 @@ public class Movement : MonoBehaviour
         } else {
             animator.SetBool("isMoving", false);  // turn off animation if not moving
         }
-    }*/
+    }
 }
 

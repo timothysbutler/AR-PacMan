@@ -21,12 +21,13 @@ public class GhostBehavior : MonoBehaviour
     {
         this.enabled = true;
 
-        //CancelInvoke();
+        CancelInvoke();
         Invoke(nameof(Disable), duration);
     }
 
     public virtual void Disable()
     {
+        Debug.Log("this should happen");
         this.enabled = false;
 
         CancelInvoke();

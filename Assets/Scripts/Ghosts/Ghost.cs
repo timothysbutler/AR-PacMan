@@ -45,7 +45,7 @@ public class Ghost : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Pacman")
+        if (other.gameObject.CompareTag("Pacman"))
         {
             if (this.frightened.enabled) {
                 FindObjectOfType<GameManager>().GhostEaten(this);
