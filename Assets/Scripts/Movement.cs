@@ -58,13 +58,13 @@ public class Movement : MonoBehaviour
         // If nextDirection is NOT zero, then set the new direction
         if (this.nextDirection != Vector3.zero) {
             SetDirection(this.nextDirection);
-            //animator.SetBool("isMoving", true);  // animate pac=man's mouth if moving
+            animator.SetBool("isMoving", true);  // animate pac=man's mouth if moving
         }
         // Continuously check for walls if going in a straight line
         if (Occupied(this.direction)) 
         {
             this.direction = Vector3.zero;
-            //animator.SetBool("isMoving", false);  // turn off animation if stopped
+            animator.SetBool("isMoving", false);  // turn off animation if stopped
         }
     }
 
@@ -76,10 +76,10 @@ public class Movement : MonoBehaviour
         this.rigidbody.MovePosition(position + translation);
         
         // Rotate the character based on direction of travel
-        //this.rigidbody.rotation = rotate(translation);
+        this.rigidbody.rotation = rotate(translation);
 
         // Animate Pac-Man
-        //animate(translation);
+        animate(translation);
     }
 
     public void SetDirection(Vector3 direction, bool forced = false)

@@ -27,7 +27,6 @@ public class GhostBehavior : MonoBehaviour
 
     public virtual void Disable()
     {
-        Debug.Log("this should happen");
         this.enabled = false;
 
         CancelInvoke();

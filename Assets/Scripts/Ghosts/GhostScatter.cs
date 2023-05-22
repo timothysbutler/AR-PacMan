@@ -4,7 +4,6 @@ public class GhostScatter : GhostBehavior
 {
     private void OnDisable()
     {
-        Debug.Log("this working?");
         this.ghost.chase.Enable();
     }
 
