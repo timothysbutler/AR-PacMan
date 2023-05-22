@@ -26,13 +26,13 @@ public class BoxCastTest : MonoBehaviour
         if (isHit)
         {
             Gizmos.color = Color.red;
-            Gizmos.DrawRay(transform.position, transform.right * hit.distance);
-            Gizmos.DrawWireCube(transform.position + transform.right * hit.distance, this.box);
+            Gizmos.DrawRay(transform.position, transform.forward * hit.distance);
+            Gizmos.DrawWireCube(transform.position + transform.forward * hit.distance, this.box);
         }
         else
         {
             Gizmos.color = Color.green;
-            Gizmos.DrawRay(transform.position, transform.right * maxDistance);
+            Gizmos.DrawRay(transform.position, transform.forward * maxDistance);
         }
     }
 }

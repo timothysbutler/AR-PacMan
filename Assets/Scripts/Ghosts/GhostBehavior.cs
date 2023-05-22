@@ -21,7 +21,7 @@ public class GhostBehavior : MonoBehaviour
     {
         this.enabled = true;
 
-        CancelInvoke();
+        //CancelInvoke();
         Invoke(nameof(Disable), duration);
     }
 

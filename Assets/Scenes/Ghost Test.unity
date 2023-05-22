@@ -360,6 +360,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -439,6 +449,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -540,6 +555,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -619,6 +644,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -955,6 +985,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -1034,6 +1074,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -1701,6 +1746,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -1780,6 +1835,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -2116,6 +2176,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -2195,6 +2265,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -2611,6 +2686,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -2690,6 +2775,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -2791,6 +2881,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -2870,6 +2970,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -3861,6 +3966,16 @@ PrefabInstance:
       propertyPath: initialDirection.x
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 502005517897172807, guid: 36cc2458247749e41be501b0798bff0c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 551666571688173981, guid: 36cc2458247749e41be501b0798bff0c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 891127984078321284, guid: 36cc2458247749e41be501b0798bff0c,
         type: 3}
       propertyPath: m_Enabled
@@ -3899,7 +4014,7 @@ PrefabInstance:
     - target: {fileID: 5435901797397559486, guid: 36cc2458247749e41be501b0798bff0c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.40999985
+      value: -0.4
       objectReference: {fileID: 0}
     - target: {fileID: 5435901797397559486, guid: 36cc2458247749e41be501b0798bff0c,
         type: 3}
@@ -3909,7 +4024,7 @@ PrefabInstance:
     - target: {fileID: 5435901797397559486, guid: 36cc2458247749e41be501b0798bff0c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.488
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 5435901797397559486, guid: 36cc2458247749e41be501b0798bff0c,
         type: 3}
@@ -3949,6 +4064,11 @@ PrefabInstance:
     - target: {fileID: 5435901797397559486, guid: 36cc2458247749e41be501b0798bff0c,
         type: 3}
       propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7589922930342600984, guid: 36cc2458247749e41be501b0798bff0c,
+        type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7696980773600178386, guid: 36cc2458247749e41be501b0798bff0c,
@@ -4520,6 +4640,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -4599,6 +4729,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -5817,6 +5952,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -5897,6 +6042,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Enabled
@@ -5917,6 +6067,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -5996,6 +6156,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -8896,6 +9061,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -8975,6 +9150,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -9830,6 +10010,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -9909,6 +10099,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -10010,6 +10205,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -10089,6 +10294,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -11040,6 +11250,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -11119,6 +11339,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -11535,6 +11760,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -11614,6 +11849,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -13634,6 +13874,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -13713,6 +13963,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -17073,6 +17328,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -17152,6 +17417,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -17403,6 +17673,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -17482,6 +17762,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -17968,6 +18253,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -18047,6 +18342,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -18982,6 +19282,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -19061,6 +19371,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -19477,6 +19792,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -19556,6 +19881,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -20817,6 +21147,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -20896,6 +21236,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -21387,6 +21732,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -21466,6 +21821,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -22696,6 +23056,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -22775,6 +23145,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -25920,6 +26295,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -25999,6 +26384,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -26485,6 +26875,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -26565,6 +26965,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Enabled
@@ -26585,6 +26990,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -26664,6 +27079,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -27855,6 +28275,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -27934,6 +28364,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -28115,6 +28550,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -28194,6 +28639,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -29224,6 +29674,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -29303,6 +29763,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -29484,6 +29949,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost-Starter-Cube
       objectReference: {fileID: 0}
+    - target: {fileID: 7848246841219363041, guid: ee1b917d8f6124f2781f1dacc25b0a17,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 9100369689060856071, guid: ee1b917d8f6124f2781f1dacc25b0a17,
         type: 3}
       propertyPath: m_RootOrder
@@ -29638,6 +30108,7 @@ Transform:
   - {fileID: 1227526020}
   - {fileID: 544733739}
   - {fileID: 52320509}
+  - {fileID: 1481628600}
   m_Father: {fileID: 1015081595}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -30294,6 +30765,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -30373,6 +30854,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -33619,6 +34105,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -33698,6 +34194,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -36139,6 +36640,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -36218,6 +36729,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -36319,6 +36835,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -36398,6 +36924,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -36899,6 +37430,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -36978,6 +37519,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -37789,6 +38335,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -37868,6 +38424,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -39122,6 +39683,95 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1260472029}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1265415217
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 962781988}
+    m_Modifications:
+    - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242028014922757889, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 61
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242028014922757889, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242028014922757889, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242028014922757889, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242028014922757889, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242028014922757889, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242028014922757889, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242028014922757889, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242028014922757889, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242028014922757889, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242028014922757889, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242028014922757889, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242028014922757889, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242028014922757889, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d16fb3f65abba4fd79e79d5d116db128, type: 3}
 --- !u!114 &1267096971 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: -9051408269163378892, guid: 36cc2458247749e41be501b0798bff0c,
@@ -39932,6 +40582,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -40011,6 +40671,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -41357,6 +42022,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -41436,6 +42111,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -41612,6 +42292,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -41691,6 +42381,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -44507,6 +45202,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -44586,6 +45291,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -45312,6 +46022,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -45391,6 +46111,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -45652,6 +46377,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -45731,6 +46466,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -46289,6 +47029,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 207761004149510066, guid: 5760e3456a02f40939a8b49a6553ddf7,
     type: 3}
   m_PrefabInstance: {fileID: 1480157266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1481628600 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4242028014922757889, guid: d16fb3f65abba4fd79e79d5d116db128,
+    type: 3}
+  m_PrefabInstance: {fileID: 1265415217}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1482012258
 PrefabInstance:
@@ -47382,6 +48128,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -47461,6 +48217,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -47637,6 +48398,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -47717,6 +48488,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Enabled
@@ -47737,6 +48513,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -47816,6 +48602,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -48222,6 +49013,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -48301,6 +49102,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -48887,6 +49693,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -48966,6 +49782,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -50007,6 +50828,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -50086,6 +50917,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -50267,6 +51103,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -50346,6 +51192,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -51870,6 +52721,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -51949,6 +52810,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -52365,6 +53231,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -52444,6 +53320,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -53406,16 +54287,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2d14e99157824c91b539132e365050c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1714117061 stripped
+--- !u!114 &1714117064 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8550440142444441523, guid: fae2168d99b904f0bacb766cd23e3108,
+  m_CorrespondingSourceObject: {fileID: 5143573393623321906, guid: fae2168d99b904f0bacb766cd23e3108,
     type: 3}
   m_PrefabInstance: {fileID: 1799072527945867359}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a99b962fa0814a38b8cae759844c23d, type: 3}
+  m_Script: {fileID: 11500000, guid: 64ceadd9473c54f82bff913a560ecd96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1718259776
@@ -54755,6 +55636,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -54834,6 +55725,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -58465,6 +59361,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -58544,6 +59450,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -59303,6 +60214,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -59382,6 +60303,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -60733,6 +61659,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -60812,6 +61748,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -61628,6 +62569,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost-Starter-Cube
       objectReference: {fileID: 0}
+    - target: {fileID: 7848246841219363041, guid: ee1b917d8f6124f2781f1dacc25b0a17,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 9100369689060856071, guid: ee1b917d8f6124f2781f1dacc25b0a17,
         type: 3}
       propertyPath: m_RootOrder
@@ -62098,6 +63044,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -62177,6 +63133,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -62588,6 +63549,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -62667,6 +63638,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -63093,6 +64069,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -63172,6 +64158,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -63348,6 +64339,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -63427,6 +64428,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -66032,6 +67038,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -66111,6 +67127,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -66927,6 +67948,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962781988}
     m_Modifications:
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7440500240667558511, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 592848989614904569, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
       propertyPath: m_Name
@@ -67006,6 +68037,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370747525592169655, guid: d16fb3f65abba4fd79e79d5d116db128,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594023639582441878, guid: d16fb3f65abba4fd79e79d5d116db128,
         type: 3}
@@ -67609,7 +68645,7 @@ PrefabInstance:
         type: 3}
       propertyPath: initialBehavior
       value: 
-      objectReference: {fileID: 1714117061}
+      objectReference: {fileID: 1714117064}
     - target: {fileID: 184174691791289968, guid: fae2168d99b904f0bacb766cd23e3108,
         type: 3}
       propertyPath: m_Name
@@ -67700,9 +68736,19 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5143573393623321906, guid: fae2168d99b904f0bacb766cd23e3108,
+        type: 3}
+      propertyPath: duration
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8474501933072019035, guid: fae2168d99b904f0bacb766cd23e3108,
         type: 3}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8550440142444441523, guid: fae2168d99b904f0bacb766cd23e3108,
+        type: 3}
+      propertyPath: duration
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
