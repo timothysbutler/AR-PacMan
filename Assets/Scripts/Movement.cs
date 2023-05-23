@@ -58,13 +58,13 @@ public class Movement : MonoBehaviour
         // If nextDirection is NOT zero, then set the new direction
         if (this.nextDirection != Vector3.zero) {
             SetDirection(this.nextDirection);
-            animator.SetBool("isMoving", true);  // animate pac=man's mouth if moving
+            //animator.SetBool("isMoving", true);  // animate pac=man's mouth if moving
         }
         // Continuously check for walls if going in a straight line
         if (Occupied(this.direction)) 
         {
             this.direction = Vector3.zero;
-            animator.SetBool("isMoving", false);  // turn off animation if stopped
+            //animator.SetBool("isMoving", false);  // turn off animation if stopped
         }
     }
 
@@ -79,7 +79,10 @@ public class Movement : MonoBehaviour
         this.rigidbody.rotation = rotate(translation);
 
         // Animate Pac-Man
-        animate(translation);
+        if (this.gameObject.CompareTag("Pacman")) {
+            animate(translation);
+        }
+        
     }
 
     public void SetDirection(Vector3 direction, bool forced = false)
@@ -114,14 +117,28 @@ public class Movement : MonoBehaviour
 
     public Quaternion rotate(Vector3 translation) {
         // define the rotation needed for pac-man based on the direction of travel
-        if (translation.x > 0){
-            return Quaternion.Euler(0, 270, 0);
-        } else if (translation.x < 0) {
-            return Quaternion.Euler(0, 90, 0);
-        } else if (translation.z > 0) {
-            return Quaternion.Euler(0,180,0);
-        } else if (translation.z < 0) {
-            return Quaternion.Euler(0,0,0);
+        if (this.gameObject.CompareTag("Pacman"))
+        {
+            if (translation.x > 0) {
+                return Quaternion.Euler(0, 270, 0);
+            } else if (translation.x < 0) {
+                return Quaternion.Euler(0, 90, 0);
+            } else if (translation.z > 0) {
+                return Quaternion.Euler(0, 180, 0);
+            } else if (translation.z < 0) {
+                return Quaternion.Euler(0, 0, 0);
+            }
+        // For Ghost rotation
+        } else if (this.gameObject.CompareTag("Ghost")) {
+            if (translation.x > 0) {
+                return Quaternion.Euler(-90, 0, 0);
+            } else if (translation.x < 0) {
+                return Quaternion.Euler(-90, 180, 0);
+            } else if (translation.z > 0) {
+                return Quaternion.Euler(-90, 270, 0);
+            } else if (translation.z < 0) {
+                return Quaternion.Euler(-90, 90, 0);
+            }
         }
         // else keep the current rotational orientation
         return Quaternion.Euler(this.rigidbody.rotation.eulerAngles);

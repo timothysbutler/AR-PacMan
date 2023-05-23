@@ -55,6 +55,7 @@ public class Pacman : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             this.movement.SetDirection(Vector3.back);
+            //this.movement.rigidbody.rotation = this.movement.rotate(Vector3.back);
         }
         else if (Input.GetKeyDown(KeyCode.DownArrow))
         {

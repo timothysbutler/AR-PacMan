@@ -4747,6 +4747,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4969511699325047456, guid: ddbc79884400b4a94989101a5fe2b090,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7560818775186933092, guid: ddbc79884400b4a94989101a5fe2b090,
         type: 3}
       propertyPath: m_Name
@@ -6110,6 +6115,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4356930368045049288, guid: 576917a50030542fcb07694355931571,
         type: 3}
+      propertyPath: m_Radius
+      value: 0.009
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356930368045049288, guid: 576917a50030542fcb07694355931571,
+        type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -6118,6 +6128,11 @@ PrefabInstance:
       propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6688278787345058092, guid: 576917a50030542fcb07694355931571,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3ef2376b808f5ff4c9eba9c680eaa3c7, type: 2}
     - target: {fileID: 8174340081765915172, guid: 576917a50030542fcb07694355931571,
         type: 3}
       propertyPath: initialDirection.x
@@ -15835,6 +15850,11 @@ PrefabInstance:
     - target: {fileID: 3272847555287551698, guid: ddbc79884400b4a94989101a5fe2b090,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969511699325047456, guid: ddbc79884400b4a94989101a5fe2b090,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7560818775186933092, guid: ddbc79884400b4a94989101a5fe2b090,
@@ -29931,6 +29951,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ghost-Starter-Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 7848246841219363041, guid: ee1b917d8f6124f2781f1dacc25b0a17,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9100369689060856071, guid: ee1b917d8f6124f2781f1dacc25b0a17,
         type: 3}
@@ -62854,6 +62879,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost-Starter-Cube
       objectReference: {fileID: 0}
+    - target: {fileID: 7848246841219363041, guid: ee1b917d8f6124f2781f1dacc25b0a17,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 9100369689060856071, guid: ee1b917d8f6124f2781f1dacc25b0a17,
         type: 3}
       propertyPath: m_RootOrder
@@ -69126,12 +69156,12 @@ PrefabInstance:
     - target: {fileID: 704111048267293898, guid: fae2168d99b904f0bacb766cd23e3108,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 704111048267293898, guid: fae2168d99b904f0bacb766cd23e3108,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 704111048267293898, guid: fae2168d99b904f0bacb766cd23e3108,
         type: 3}

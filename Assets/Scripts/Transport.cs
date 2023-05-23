@@ -14,17 +14,24 @@ using UnityEngine;
 
 public class Transport : MonoBehaviour
 {
-
     public Transform connection;
+    private GameObject target;
 
     private void OnTriggerEnter(Collider other)
     {
         // If collision with Transport Cube is Pacman, transport
-        if (other.gameObject.tag == "Pacman") 
+        if (other.gameObject.CompareTag("Ghost")) 
         {
-            Vector3 position = connection.position;
-            position.z = other.transform.position.z;
-            other.transform.position = position;
+            target = other.gameObject;
+            target.GetComponent<Movement>().speedMulti = 0.5f;
+            Invoke(nameof(ResetMulti), 0.5f);
         }
+        Vector3 position = connection.position;
+        other.transform.position = position;
+    }
+
+    private void ResetMulti()
+    {
+        target.GetComponent<Movement>().speedMulti = 1.0f;
     }
 }
