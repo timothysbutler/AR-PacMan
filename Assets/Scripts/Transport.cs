@@ -20,7 +20,7 @@ public class Transport : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         // If collision with Transport Cube is Pacman, transport
-        if (other.gameObject.CompareTag("Ghost")) 
+        if (other.gameObject.CompareTag("Ghost"))
         {
             target = other.gameObject;
             target.GetComponent<Movement>().speedMulti = 0.5f;
