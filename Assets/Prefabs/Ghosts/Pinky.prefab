@@ -77,7 +77,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinky
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -5252225123650407398, guid: 493fea9034d694312a6d6373ad08552d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 493fea9034d694312a6d6373ad08552d, type: 3}
 --- !u!114 &6647868137244599286 stripped
 MonoBehaviour:
