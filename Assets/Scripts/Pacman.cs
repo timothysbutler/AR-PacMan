@@ -20,42 +20,41 @@ public class Pacman : MonoBehaviour
     public Movement movement { get; private set; }
     private Animator animator;
     public Joystick joystick;
-
+    public GameObject gameBoard;
+    public GameObject player;
+    
     private void Awake() {
-        //joystick = FindObjectOfType<Joystick> ();
+        joystick = FindObjectOfType<Joystick> ();
         // playerInput = new Player();
         this.movement = GetComponent<Movement>();
         animator = GetComponentInChildren<Animator> ();
+        gameBoard = GetComponent<PlaceGameBoard> ();
     }
 
     void Update()
     {
-        //UNCOMMENT FOR JOYSTICK//
-
         // Get input from on screen joystick
-        //Vector2 joystickInput = joystick.input;
+        Vector2 joystickInput = joystick.input;
 
         // only move up/down or left/right
-        // if (Math.Abs(joystickInput.x) > Math.Abs(joystickInput.y)) {
-        //     if (joystickInput.x > 0.2) {  // Deadzone of 0.2
-        //         this.movement.SetDirection(Vector2.right);
-        //         ////this.rotation = this.rotation*Quaternion.AngleAxis(joystickInput.x, Vector3.forward);
-        //     } else if (joystickInput.x < -0.2) {  // Deadzone of 0.2
-        //         this.movement.SetDirection(Vector2.left);
-        //     }
-        // } else if (Math.Abs(joystickInput.x) < Math.Abs(joystickInput.y)){
-        //     if (joystickInput.y > 0.2) {  // Deadzone of 0.2 
-        //         this.movement.SetDirection(Vector3.forward);
-        //     } else if (joystickInput.y < -0.2) {  // Deadzone of 0.2
-        //         this.movement.SetDirection(Vector3.back);
-        //     }
-        // }
+        if (Math.Abs(joystickInput.x) > Math.Abs(joystickInput.y)) {
+            if (joystickInput.x > 0.5) {  // Deadzone of 0.5
+                this.movement.SetDirection(player.right);
+            } else if (joystickInput.x < -0.5) {
+                this.movement.SetDirection(Vector2.left);
+            }
+        } else if (Math.Abs(joystickInput.x) < Math.Abs(joystickInput.y)){
+            if (joystickInput.y > 0.5) {
+                this.movement.SetDirection(Vector3.forward);
+            } else if (joystickInput.y < -0.5) {
+                this.movement.SetDirection(Vector3.back);
+            }
+        }
 
         // For Keyboard testing
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             this.movement.SetDirection(Vector3.back);
-            //this.movement.rigidbody.rotation = this.movement.rotate(Vector3.back);
         }
         else if (Input.GetKeyDown(KeyCode.DownArrow))
         {
