@@ -16,7 +16,6 @@ public class GameManager : MonoBehaviour
 {
     public Ghost[] ghosts;
     public Pacman pacman;
-    //public PlayerController pacman;
     public Transform pellets;
     public Energizer energizer;
 

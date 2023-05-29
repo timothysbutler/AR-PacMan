@@ -10,7 +10,7 @@ public class PlaceGameBoard : MonoBehaviour
     private ShowGameBoardIndicator showGameBoardIndicator;
     public ARPlaneManager arPlaneManager;
 
-    private GameObject newGameBoard;
+    public GameObject newGameBoard;
     public GameObject gameBoard;
     private Vector3 gameBoardOffset;
     private Vector3 gameBoardScale;
@@ -37,6 +37,7 @@ public class PlaceGameBoard : MonoBehaviour
         scoreText.SetActive(false);
         scoreValue.SetActive(false);
 
+        //combine these also to GameBoard
         scoreTextOffset = new Vector3 (-3f, 3f, 20f);
         scoreTextRotation = Quaternion.Euler(0f,0f,0f);
 
