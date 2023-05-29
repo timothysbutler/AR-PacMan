@@ -10,6 +10,7 @@
 //-------------------------------------------------------------------//
 
 using UnityEngine;
+using System;
 
 [RequireComponent(typeof(Rigidbody))]
 public class Movement : MonoBehaviour
@@ -119,15 +120,16 @@ public class Movement : MonoBehaviour
         // define the rotation needed for pac-man based on the direction of travel
         if (this.gameObject.CompareTag("Pacman"))
         {
-            if (translation.x > 0) {
+            if (translation.x > 0 && Math.Abs(translation.x) > 0.02) {
                 return Quaternion.Euler(0, 270, 0);
-            } else if (translation.x < 0) {
+            } else if (translation.x < 0 && Math.Abs(translation.x) > 0.02) {
                 return Quaternion.Euler(0, 90, 0);
-            } else if (translation.z > 0) {
+            } else if (translation.z > 0 && Math.Abs(translation.z) > 0.02) {
                 return Quaternion.Euler(0, 180, 0);
-            } else if (translation.z < 0) {
+            } else if (translation.z < 0 && Math.Abs(translation.z) > 0.02) {
                 return Quaternion.Euler(0, 0, 0);
             }
+
         // For Ghost rotation
         } else if (this.gameObject.CompareTag("Ghost")) {
             if (translation.x > 0) {

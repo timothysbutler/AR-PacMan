@@ -31,28 +31,22 @@ public class Pacman : MonoBehaviour
         this.movement = GetComponent<Movement>();
         animator = GetComponentInChildren<Animator> ();
         placeGameBoard = FindObjectOfType<PlaceGameBoard>();
-        Debug.Log("hello?");
     }
 
     void Update()
     {
         // get the player object from PlaceGameBoard.cs
-        Debug.Log(placeGameBoard.newGameBoard);
         if (placeGameBoard.newGameBoard.activeInHierarchy && !playerFound) {
             GameObject gameBoard = GameObject.FindWithTag("GameBoard");
-            if(gameBoard) {
-                Debug.Log(gameBoard);
-            }
             player = gameBoard.transform.GetChild(3).gameObject;
             if (player != null) {
-                Debug.Log(player);
                 playerFound = true;
             }
         }
 
         // Get input from on screen joystick
         Vector2 joystickInput = joystick.input;
-        Debug.Log(joystickInput);
+
         // set deadzone value, radius outside of which a joystick input moves pacman
         float deadzone = 0.4f;
 
