@@ -1795,6 +1795,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lives
       objectReference: {fileID: 0}
+    - target: {fileID: 6871422628005713887, guid: cb634f84bf87842479545b4707ff101e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Lives
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb634f84bf87842479545b4707ff101e, type: 3}
 --- !u!4 &589515505680081429 stripped

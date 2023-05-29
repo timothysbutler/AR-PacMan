@@ -3,15 +3,13 @@ using UnityEngine;
 public class Lives : MonoBehaviour
 {
 
-    // Start is called before the first frame update
-    void Start()
-    {
+    // protected virtual void LifeLost()
+    //     {
+    //         FindObjectOfType<GameManager>().LifeLost(this);
+    //     }
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    // protected virtual void LifeGained()
+    //     {
+    //         FindObjectOfType<GameManager>().LifeGained(this);
+    //     }
 }

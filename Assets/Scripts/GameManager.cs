@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     public Pacman pacman;
     public Transform pellets;
     public Energizer energizer;
+    public Lives playerLives;
 
     public int ghostMulti { get; private set; }
     public int score { get; private set; }
@@ -108,7 +109,14 @@ public class GameManager : MonoBehaviour
     {
         this.pacman.gameObject.SetActive(false);
 
+        // set current life icon false
+        GameObject playerLives =  GameObject.FindWithTag("Lives");
+        GameObject life = playerLives.transform.GetChild(this.lives).gameObject;
+        life.SetActive(false);
+
         SetLives(this.lives - 1);
+
+        
 
         if (this.lives > 0) {
             Invoke(nameof(ResetState), 3.0f);
