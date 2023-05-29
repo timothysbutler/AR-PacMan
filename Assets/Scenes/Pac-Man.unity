@@ -1094,10 +1094,6 @@ MonoBehaviour:
   newGameBoard: {fileID: 0}
   gameBoard: {fileID: 374866047433483488, guid: 35b89b02f4ef7419591d53f3bc8a976e,
     type: 3}
-  scoreText: {fileID: 6670554444467727067, guid: a41cc1fcb8a2170409c49e365c238bbc,
-    type: 3}
-  scoreValue: {fileID: 6081850433268025344, guid: a8cdef1a017e9ac4d940b46d303249c0,
-    type: 3}
   placeGameBoardButton: {fileID: 495624532}
 --- !u!4 &1127195387
 Transform:
@@ -1585,7 +1581,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a34ff405c04f44de39653abdd2abffa4, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
@@ -1681,7 +1677,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 57286a69123744629b41199f3423ed80, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
@@ -1777,7 +1773,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 54e115181634643dbb782d8683d58bf7, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
@@ -1873,7 +1869,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0b99d06a58dab4e6c87d194d125a955f, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1969,7 +1965,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: fed54c2a1fba44b63b32712bc41067ba, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

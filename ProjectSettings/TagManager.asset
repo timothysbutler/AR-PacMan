@@ -12,6 +12,7 @@ TagManager:
   - Transport
   - Node
   - GameBoard
+  - PacmanLife
   layers:
   - Default
   - TransparentFX

@@ -23,6 +23,5 @@ public class ScoreText : MonoBehaviour
     {
         score = FindObjectOfType<GameManager>().score;
         scoreText.text = scorePrefix + score.ToString();
-        // Debug.Log(scoreText.text);
     }
 }
