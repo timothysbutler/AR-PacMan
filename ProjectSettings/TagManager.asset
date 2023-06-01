@@ -11,6 +11,8 @@ TagManager:
   - Joystick
   - Transport
   - Node
+  - GameBoard
+  - PacmanLife
   layers:
   - Default
   - TransparentFX

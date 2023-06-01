@@ -16,9 +16,9 @@ public class GameManager : MonoBehaviour
 {
     public Ghost[] ghosts;
     public Pacman pacman;
-    //public PlayerController pacman;
     public Transform pellets;
     public Energizer energizer;
+    public Lives playerLives;
 
     public int ghostMulti { get; private set; }
     public int score { get; private set; }
@@ -127,7 +127,14 @@ public class GameManager : MonoBehaviour
         this.pacman.gameObject.transform.position = Vector3.zero;
         this.pacman.gameObject.SetActive(false);
 
+        // set current life icon false
+        GameObject playerLives =  GameObject.FindWithTag("Lives");
+        GameObject life = playerLives.transform.GetChild(this.lives).gameObject;
+        life.SetActive(false);
+
         SetLives(this.lives - 1);
+
+        
 
         if (this.lives > 0) {
             // Play death

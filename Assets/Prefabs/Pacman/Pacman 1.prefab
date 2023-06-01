@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 4356930368045049288}
   m_Layer: 0
   m_Name: Pacman 1
-  m_TagString: Pacman
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -158,6 +158,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joystick: {fileID: 0}
+  gameBoard: {fileID: 0}
+  player: {fileID: 0}
 --- !u!135 &4356930368045049288
 SphereCollider:
   m_ObjectHideFlags: 0
