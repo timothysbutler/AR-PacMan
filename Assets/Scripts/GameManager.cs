@@ -24,18 +24,23 @@ public class GameManager : MonoBehaviour
     public int score { get; private set; }
     public int lives { get; private set; }
 
+    public AudioSource starting;
     public AudioSource siren;
     public AudioSource munch1;
     public AudioSource munch2;
     public AudioSource powerUp;
     public AudioSource ghostEaten;
+    public AudioSource death;
+    public AudioSource gameOver;
     private int munchNumber = 0;
 
     // Start the Game
     private void Start()
     {
-        NewGame();
-        siren.Play();
+        // Play starting Music and display "Ready!"
+        StartingGame();
+        Invoke(nameof(NewGame), 3.0f);
+        
     }
 
     // Run at the beginning and at restart
@@ -43,12 +48,15 @@ public class GameManager : MonoBehaviour
     {
         SetScore(0);
         SetLives(3);
-        //NewRound();
+        NewRound();
     }
 
     // New Round, Set everything back and increase variables (if needed)
     private void NewRound()
     {
+        // Play Siren
+        siren.Play();
+
         ResetGhostMulti();
         foreach(Transform pellet in this.pellets)
         {
@@ -65,6 +73,10 @@ public class GameManager : MonoBehaviour
     // If death, reset the player and ghosts, but keep pellets.
     private void ResetState()
     {
+
+        // Play Siren
+        siren.Play();
+
         ResetGhostMulti();
         for (int i = 0; i < this.ghosts.Length; i++) {
             this.ghosts[i].ResetState();
@@ -81,6 +93,7 @@ public class GameManager : MonoBehaviour
         }
 
         this.pacman.gameObject.SetActive(false);
+
     }
 
     // Set the current score
@@ -107,13 +120,23 @@ public class GameManager : MonoBehaviour
     // Player gets eaten, reset board, and lose a life
     public void PacmanEaten()
     {
+
+        // Stop playing siren
+        siren.Stop();
+
+        this.pacman.gameObject.transform.position = Vector3.zero;
         this.pacman.gameObject.SetActive(false);
 
         SetLives(this.lives - 1);
 
         if (this.lives > 0) {
+            // Play death
+            death.Play();
+
             Invoke(nameof(ResetState), 3.0f);
         } else {
+            // Play gameover death
+            gameOver.Play();
             GameOver();
         }
     }
@@ -147,6 +170,7 @@ public class GameManager : MonoBehaviour
     public void EnergizerEaten(Energizer energizer)
     {
 
+        powerUp.Play();
         energizer.gameObject.SetActive(false);
 
         SetScore(this.score + energizer.points);
@@ -172,6 +196,13 @@ public class GameManager : MonoBehaviour
     private void ResetGhostMulti() 
     {
         this.ghostMulti = 1;
+    }
+
+    // Starting Game
+    private void StartingGame()
+    {
+        starting.Play();
+        Debug.Log("READY!");
     }
 }
 
