@@ -105,6 +105,7 @@ public class GameManager : MonoBehaviour
     // Set the current lives
     private void SetLives(int lives)
     {
+        Debug.Log("this work?");
         this.lives = lives;
     }
 
@@ -120,7 +121,6 @@ public class GameManager : MonoBehaviour
     // Player gets eaten, reset board, and lose a life
     public void PacmanEaten()
     {
-
         // Stop playing siren
         siren.Stop();
 
@@ -128,9 +128,9 @@ public class GameManager : MonoBehaviour
         this.pacman.gameObject.SetActive(false);
 
         // set current life icon false
-        GameObject playerLives =  GameObject.FindWithTag("Lives");
-        GameObject life = playerLives.transform.GetChild(this.lives).gameObject;
-        life.SetActive(false);
+        //GameObject playerLives =  GameObject.FindWithTag("Lives");
+        //GameObject life = playerLives.transform.GetChild(this.lives).gameObject;
+        //life.SetActive(false);
 
         SetLives(this.lives - 1);
 

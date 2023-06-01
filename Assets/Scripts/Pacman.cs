@@ -24,7 +24,7 @@ public class Pacman : MonoBehaviour
     private PlaceGameBoard placeGameBoard;
     public GameObject gameBoard;
     public GameObject player;
-    bool playerFound = false;
+    //bool playerFound = false;
 
     private void Awake() {
         joystick = FindObjectOfType<Joystick> ();
@@ -36,22 +36,22 @@ public class Pacman : MonoBehaviour
     void Update()
     {
         // get the player object from PlaceGameBoard.cs
-        if (placeGameBoard.newGameBoard.activeInHierarchy && !playerFound) {
+        /*if (placeGameBoard.newGameBoard.activeInHierarchy && !playerFound) {
             GameObject gameBoard = GameObject.FindWithTag("GameBoard");
             player = gameBoard.transform.GetChild(3).gameObject;
             if (player != null) {
                 playerFound = true;
             }
-        }
+        }*/
 
         // Get input from on screen joystick
-        Vector2 joystickInput = joystick.input;
+        //Vector2 joystickInput = joystick.input;
 
         // set deadzone value, radius outside of which a joystick input moves pacman
-        float deadzone = 0.4f;
+        //float deadzone = 0.4f;
 
         // only move up/down or left/right
-        if (Math.Abs(joystickInput.x) > Math.Abs(joystickInput.y)) {
+        /*if (Math.Abs(joystickInput.x) > Math.Abs(joystickInput.y)) {
             if (joystickInput.x > deadzone) {
                 this.movement.SetDirection(player.transform.right);
             } else if (joystickInput.x < -deadzone) {
@@ -63,7 +63,7 @@ public class Pacman : MonoBehaviour
             } else if (joystickInput.y < -deadzone) {
                 this.movement.SetDirection(player.transform.forward * -1);
             }
-        }
+        }*/
 
         // For Keyboard testing
         if (Input.GetKeyDown(KeyCode.UpArrow))
