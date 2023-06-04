@@ -14,7 +14,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class Movement : MonoBehaviour
 {
-    public float speed = 0.5f;
+    public float speed = 6.0f;
     public float speedMulti = 1.0f;
     public Vector3 initialDirection;
     public LayerMask obstacleLayer;
