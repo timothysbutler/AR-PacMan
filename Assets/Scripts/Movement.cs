@@ -14,7 +14,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class Movement : MonoBehaviour
 {
-    public float speed = 6.0f; 
+    public float speed = 0.5f;
     public float speedMulti = 1.0f;
     public Vector3 initialDirection;
     public LayerMask obstacleLayer;
@@ -74,7 +74,6 @@ public class Movement : MonoBehaviour
         Vector3 position = this.rigidbody.position;
         Vector3 translation = this.direction * this.speed * this.speedMulti * Time.fixedDeltaTime;
         this.rigidbody.MovePosition(position + translation);
-        
         // Rotate the character based on direction of travel
         this.rigidbody.rotation = rotate(translation);
 
@@ -103,9 +102,9 @@ public class Movement : MonoBehaviour
     {
         // This section was modified from Source(1)
         // Set the box for BoxCast size a little smaller than 1x1x1 cube
-        this.box = new Vector3(0.93f, 0.93f, 0.93f);
+        this.box = new Vector3(transform.parent.localScale.x, transform.parent.localScale.y, transform.parent.localScale.z) * 0.93f;
         // Check to see if there is a collision or 'hit' and return boolean
-        if (Physics.BoxCast(this.transform.position, this.box /2, direction, out hit, transform.rotation, 0.07f, this.obstacleLayer))
+        if (Physics.BoxCast(this.transform.position, this.box /2, direction, out hit, transform.rotation, transform.parent.localScale.x * 0.07f, this.obstacleLayer))
         {
             return true;
         }
