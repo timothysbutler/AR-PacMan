@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -798,7 +798,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 7e-45, z: 9.1835e-41, w: 0}
+  m_BoundingSphereOverride: {x: NaN, y: 5.447353e-34, z: 1e-45, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -1082,14 +1082,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arPlaneManager: {fileID: 0}
-  gameBoard: {fileID: 1678565872888945599, guid: 9f5ea67836a3522408a8328bac313b8f,
+  gameBoard: {fileID: 374866047433483488, guid: 35b89b02f4ef7419591d53f3bc8a976e,
     type: 3}
-  player: {fileID: 5325667485872831133, guid: 559e8b7d53195324ba3c62038959fae0, type: 3}
-  grid: {fileID: 2422890783784155784, guid: a10bc49c8a89e2c49842435c1b0c0e99, type: 3}
-  scoreText: {fileID: 6670554444467727067, guid: a41cc1fcb8a2170409c49e365c238bbc,
-    type: 3}
-  scoreValue: {fileID: 6081850433268025344, guid: a8cdef1a017e9ac4d940b46d303249c0,
-    type: 3}
+  player: {fileID: 0}
+  grid: {fileID: 0}
+  scoreText: {fileID: 0}
+  scoreValue: {fileID: 0}
   placeGameBoardButton: {fileID: 495624532}
 --- !u!4 &1127195387
 Transform:
@@ -1547,6 +1545,8 @@ MonoBehaviour:
   siren: {fileID: 2054419680}
   munch1: {fileID: 2054419680}
   munch2: {fileID: 2054419680}
+  powerUp: {fileID: 0}
+  ghostEaten: {fileID: 0}
 --- !u!4 &2054419677
 Transform:
   m_ObjectHideFlags: 0
