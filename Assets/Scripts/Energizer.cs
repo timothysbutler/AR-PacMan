@@ -15,6 +15,7 @@ using UnityEngine;
 public class Energizer : MonoBehaviour
 {
     public int points = 50;
+    public float duration = 8.0f;
 
     protected virtual void EnergizerEat()
     {

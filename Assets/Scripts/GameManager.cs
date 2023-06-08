@@ -10,42 +10,47 @@
 // (4) https://noobtuts.com/unity/2d-pacman-game
 //-----------------------------------------------------------//
 
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public Ghost[] ghosts;
     public Pacman pacman;
+    //public PlayerController pacman;
     public Transform pellets;
     public Energizer energizer;
-    public Lives playerLives;
+    public List<GameObject> lifeList;
 
     public int ghostMulti { get; private set; }
     public int score { get; private set; }
     public int lives { get; private set; }
 
-    public AudioSource starting;
     public AudioSource siren;
     public AudioSource munch1;
     public AudioSource munch2;
-    public AudioSource powerUp;
     public AudioSource ghostEaten;
-    public AudioSource death;
-    public AudioSource gameOver;
+    public AudioSource powerUp;
+    public AudioSource startGame;
     private int munchNumber = 0;
 
     // Start the Game
     private void Start()
     {
-        // Play starting Music and display "Ready!"
-        StartingGame();
-        Invoke(nameof(NewGame), 3.0f);
+        startGame.Play();
+        this.pacman.gameObject.SetActive(false);
+        for (int i = 0; i < this.ghosts.Length; i++)
+        {
+            this.ghosts[i].gameObject.SetActive(false);
+        }
+        Invoke(nameof(NewGame), 5.5f);
         
     }
 
     // Run at the beginning and at restart
     private void NewGame()
     {
+        siren.Play();
         SetScore(0);
         SetLives(3);
         NewRound();
@@ -54,9 +59,6 @@ public class GameManager : MonoBehaviour
     // New Round, Set everything back and increase variables (if needed)
     private void NewRound()
     {
-        // Play Siren
-        siren.Play();
-
         ResetGhostMulti();
         foreach(Transform pellet in this.pellets)
         {
@@ -73,10 +75,6 @@ public class GameManager : MonoBehaviour
     // If death, reset the player and ghosts, but keep pellets.
     private void ResetState()
     {
-
-        // Play Siren
-        siren.Play();
-
         ResetGhostMulti();
         for (int i = 0; i < this.ghosts.Length; i++) {
             this.ghosts[i].ResetState();
@@ -88,12 +86,12 @@ public class GameManager : MonoBehaviour
     // All lives have been loss, game ends
     private void GameOver()
     {
+        siren.Stop();
         for (int i = 0; i < this.ghosts.Length; i++) {
             this.ghosts[i].gameObject.SetActive(false);
         }
 
         this.pacman.gameObject.SetActive(false);
-
     }
 
     // Set the current score
@@ -105,7 +103,6 @@ public class GameManager : MonoBehaviour
     // Set the current lives
     private void SetLives(int lives)
     {
-        Debug.Log("this work?");
         this.lives = lives;
     }
 
@@ -121,29 +118,14 @@ public class GameManager : MonoBehaviour
     // Player gets eaten, reset board, and lose a life
     public void PacmanEaten()
     {
-        // Stop playing siren
-        siren.Stop();
-
-        this.pacman.gameObject.transform.position = Vector3.zero;
         this.pacman.gameObject.SetActive(false);
 
-        // set current life icon false
-        //GameObject playerLives =  GameObject.FindWithTag("Lives");
-        //GameObject life = playerLives.transform.GetChild(this.lives).gameObject;
-        //life.SetActive(false);
-
         SetLives(this.lives - 1);
-
-        
+        this.lifeList[lives].gameObject.SetActive(false);
 
         if (this.lives > 0) {
-            // Play death
-            death.Play();
-
             Invoke(nameof(ResetState), 3.0f);
         } else {
-            // Play gameover death
-            gameOver.Play();
             GameOver();
         }
     }
@@ -167,24 +149,26 @@ public class GameManager : MonoBehaviour
 
         if (!CheckPelletCount())
         {
-            Debug.Log("All Gone");
-            //this.pacman.gameObject.SetActive(false);
-            //Invoke(nameof(NewRound), 3.0f);
+            this.pacman.gameObject.SetActive(false);
+            Invoke(nameof(NewRound), 3.0f);
         }
     }
 
     // If energizer gets eaten, increase score, turn ghosts to blue
     public void EnergizerEaten(Energizer energizer)
     {
-
         powerUp.Play();
         energizer.gameObject.SetActive(false);
 
+        for (int i = 0; i < this.ghosts.Length; i++)
+        {
+            this.ghosts[i].frightened.Enable(energizer.duration);
+        }
+
         SetScore(this.score + energizer.points);
-        //CancelInvoke();
-        //Invoke(nameof(ResetGhostMulti), energizer.duration);
-        // power up pacman
-        // ghosts scared
+        CancelInvoke();
+        Invoke(nameof(ResetGhostMulti), energizer.duration);
+        Invoke(nameof(StopSound), energizer.duration);
     }
 
     // Check the pellets if they are active
@@ -205,11 +189,9 @@ public class GameManager : MonoBehaviour
         this.ghostMulti = 1;
     }
 
-    // Starting Game
-    private void StartingGame()
+    private void StopSound()
     {
-        starting.Play();
-        Debug.Log("READY!");
+        powerUp.Stop();
     }
 }
 

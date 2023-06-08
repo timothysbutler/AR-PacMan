@@ -23,9 +23,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Archive/20230506.unity
     guid: 649017a23946fb744afccce4b5176b2b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Pac-Man.unity
     guid: 7778d603f37ed414ab457ef61c6d93b6
+  - enabled: 0
+    path: Assets/Scenes/AR Pac-Man.unity
+    guid: 4bd00d5c1435b4fa5b2f4f93af7fbd88
+  - enabled: 1
+    path: Assets/Scenes/Ghost Test.unity
+    guid: 1632d7d5466c79a4cacc75f66c8575ab
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
