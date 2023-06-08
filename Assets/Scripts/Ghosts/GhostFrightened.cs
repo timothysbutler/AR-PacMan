@@ -8,6 +8,7 @@
 // (2) https://www.youtube.com/watch?v=B34iq4O5ZYI
 // (3) https://docs.unity3d.com/Manual/CollidersOverview.html
 // (4) https://noobtuts.com/unity/2d-pacman-game
+// (5) https://github.com/zigurous/unity-pacman-tutorial
 //-----------------------------------------------------------//
 using UnityEngine;
 
@@ -16,11 +17,9 @@ public class GhostFrightened : GhostBehavior
     public Material newMaterial;
     public Material oldMaterial { get; private set; }
 
-
     public bool eaten { get; private set; }
 
-
-
+    // Eaten method if Ghost have been consumed
     private void Eaten()
     {
         this.eaten = true;
@@ -44,8 +43,6 @@ public class GhostFrightened : GhostBehavior
     public override void Disable()
     {
         base.Disable();
-
-        
     }
 
     private void OnEnable()
@@ -64,6 +61,7 @@ public class GhostFrightened : GhostBehavior
 
     private void OnTriggerEnter(Collider other)
     {
+        // If collision with Pac-Man, be eaten
         if (other.gameObject.CompareTag("Pacman") && this.enabled)
         {
             Eaten();
@@ -76,6 +74,7 @@ public class GhostFrightened : GhostBehavior
             Vector3 direction = Vector3.zero;
             float maxDistance = float.MinValue;
 
+            // Find furthest distance from Pac-Man and move towards it.
             foreach (Vector3 availableDirction in node.availableDirections)
             {
                 Vector3 newPosition = this.transform.position + new Vector3(availableDirction.x, availableDirction.y, availableDirction.z);

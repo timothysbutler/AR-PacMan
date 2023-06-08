@@ -1,19 +1,16 @@
 //-----------------------------------------------------------//
 // Authors: Timothy Butler and Nick Thomas
-// Date Last Modified: May 11th, 2023
-// Course: CS 467 - 400
+// Date Last Modified: June 7th, 2023
+// Course: CS 497 - 400
 // Oregon State University
 // Source(s):
 // (1) https://www.youtube.com/watch?v=TKt_VlMn_aA
 // (2) https://www.youtube.com/watch?v=B34iq4O5ZYI
 // (3) https://docs.unity3d.com/Manual/CollidersOverview.html
 // (4) https://noobtuts.com/unity/2d-pacman-game
+// (5) https://github.com/zigurous/unity-pacman-tutorial
 //-----------------------------------------------------------//
-
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using System;
 
 public class Pacman : MonoBehaviour
 {
@@ -35,7 +32,7 @@ public class Pacman : MonoBehaviour
 
     void Update()
     {
-        // get the player object from PlaceGameBoard.cs
+        // For joystick testing
         /*if (placeGameBoard.newGameBoard.activeInHierarchy && !playerFound) {
             GameObject gameBoard = GameObject.FindWithTag("GameBoard");
             player = gameBoard.transform.GetChild(3).gameObject;
@@ -65,7 +62,7 @@ public class Pacman : MonoBehaviour
             }
         }*/
 
-        // For Keyboard testing
+        // For Keyboard usage
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             this.movement.SetDirection(Vector3.back);

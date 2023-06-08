@@ -1,3 +1,11 @@
+//-----------------------------------------------------------//
+// Authors: Timothy Butler and Nick Thomas
+// Date Last Modified: June 7th, 2023
+// Course: CS 497 - 400
+// Oregon State University
+// Source(s):
+// (1) https://github.com/zigurous/unity-pacman-tutorial
+//-----------------------------------------------------------//
 using UnityEngine;
 
 public class SlowTransport : MonoBehaviour

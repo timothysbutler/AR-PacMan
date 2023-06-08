@@ -8,20 +8,24 @@
 // (2) https://www.youtube.com/watch?v=B34iq4O5ZYI
 // (3) https://docs.unity3d.com/Manual/CollidersOverview.html
 // (4) https://noobtuts.com/unity/2d-pacman-game
+// (5) https://github.com/zigurous/unity-pacman-tutorial
 //-----------------------------------------------------------//
 using UnityEngine;
 
 public class GhostScatter : GhostBehavior
 {
+    // When disabled, enable Chase behavior
     private void OnDisable()
     {
         this.ghost.chase.Enable();
     }
 
+    // If collision with Node, determine next direciton
     private void OnTriggerEnter(Collider other)
     {
         Node node = other.GetComponent<Node>();
 
+        // Generate random direction that is avaiable at the node
         if (node != null && this.enabled && !this.ghost.frightened.enabled)
         {
             int index = Random.Range(0, node.availableDirections.Count);
@@ -36,6 +40,7 @@ public class GhostScatter : GhostBehavior
                 }
             }
 
+            // Set the direction
             this.ghost.movement.SetDirection(node.availableDirections[index]);
         }
     }

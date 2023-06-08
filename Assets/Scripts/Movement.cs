@@ -1,13 +1,15 @@
-//-------------------------------------------------------------------//
+//-----------------------------------------------------------//
 // Authors: Timothy Butler and Nick Thomas
-// Date Last Modified: May 11th, 2023
-// Course: CS 467 - 400
+// Date Last Modified: June 7th, 2023
+// Course: CS 497 - 400
 // Oregon State University
 // Source(s):
 // (1) https://www.youtube.com/watch?v=TKt_VlMn_aA
-// (2) https://docs.unity3d.com/ScriptReference/Physics.BoxCast.html
-// (3) https://noobtuts.com/unity/2d-pacman-game
-//-------------------------------------------------------------------//
+// (2) https://www.youtube.com/watch?v=B34iq4O5ZYI
+// (3) https://docs.unity3d.com/Manual/CollidersOverview.html
+// (4) https://noobtuts.com/unity/2d-pacman-game
+// (5) https://github.com/zigurous/unity-pacman-tutorial
+//-----------------------------------------------------------//
 
 using UnityEngine;
 using System;
@@ -59,13 +61,11 @@ public class Movement : MonoBehaviour
         // If nextDirection is NOT zero, then set the new direction
         if (this.nextDirection != Vector3.zero) {
             SetDirection(this.nextDirection);
-            //animator.SetBool("isMoving", true);  // animate pac=man's mouth if moving
         }
         // Continuously check for walls if going in a straight line
         if (Occupied(this.direction)) 
         {
             this.direction = Vector3.zero;
-            //animator.SetBool("isMoving", false);  // turn off animation if stopped
         }
     }
 

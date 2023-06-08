@@ -1,13 +1,14 @@
 //-----------------------------------------------------------//
 // Authors: Timothy Butler and Nick Thomas
-// Date Last Modified: May 11th, 2023
-// Course: CS 467 - 400
+// Date Last Modified: June 7th, 2023
+// Course: CS 497 - 400
 // Oregon State University
 // Source(s):
 // (1) https://www.youtube.com/watch?v=TKt_VlMn_aA
 // (2) https://www.youtube.com/watch?v=B34iq4O5ZYI
 // (3) https://docs.unity3d.com/Manual/CollidersOverview.html
 // (4) https://noobtuts.com/unity/2d-pacman-game
+// (5) https://github.com/zigurous/unity-pacman-tutorial
 //-----------------------------------------------------------//
 
 using UnityEngine;

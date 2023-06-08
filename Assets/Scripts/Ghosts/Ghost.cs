@@ -8,6 +8,7 @@
 // (2) https://www.youtube.com/watch?v=B34iq4O5ZYI
 // (3) https://docs.unity3d.com/Manual/CollidersOverview.html
 // (4) https://noobtuts.com/unity/2d-pacman-game
+// (5) https://github.com/zigurous/unity-pacman-tutorial
 //-----------------------------------------------------------//
 using UnityEngine;
 
@@ -36,6 +37,8 @@ public class Ghost : MonoBehaviour
         ResetState();
     }
 
+
+    // Reset Ghosts if needed
     public void ResetState()
     {
         this.movement.ResetState();
@@ -55,6 +58,7 @@ public class Ghost : MonoBehaviour
     }
 
 
+    // If collision with Pac-Man check to see whom gets eaten
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Pacman"))

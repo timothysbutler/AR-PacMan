@@ -8,16 +8,19 @@
 // (2) https://www.youtube.com/watch?v=B34iq4O5ZYI
 // (3) https://docs.unity3d.com/Manual/CollidersOverview.html
 // (4) https://noobtuts.com/unity/2d-pacman-game
+// (5) https://github.com/zigurous/unity-pacman-tutorial
 //-----------------------------------------------------------//
 using UnityEngine;
 
 public class GhostChase : GhostBehavior
 {
+    // When disabled, enable Scatter mode
     private void OnDisable()
     {
         this.ghost.scatter.Enable();
     }
 
+    // If collision with a Node, determine which direction for the Ghost to go
     private void OnTriggerEnter(Collider other)
     {
         Node node = other.GetComponent<Node>();
@@ -27,6 +30,7 @@ public class GhostChase : GhostBehavior
             Vector3 direction = Vector3.zero;
             float minDistance = float.MaxValue;
 
+            // Check to see which direction is shortest to Pac-Man
             foreach (Vector3 availableDirction in node.availableDirections)
             {
                 Vector3 newPosition = this.transform.position + new Vector3(availableDirction.x, availableDirction.y, availableDirction.z);
@@ -39,6 +43,7 @@ public class GhostChase : GhostBehavior
                 }
             }
 
+            // Set the direction for the Ghost
             this.ghost.movement.SetDirection(direction);
         }
     }

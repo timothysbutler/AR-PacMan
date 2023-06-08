@@ -1,6 +1,6 @@
 //-----------------------------------------------------------//
 // Authors: Timothy Butler and Nick Thomas
-// Date Last Modified: May 11th, 2023
+// Date Last Modified: June 7th, 2023
 // Course: CS 497 - 400
 // Oregon State University
 // Source(s):
@@ -8,6 +8,7 @@
 // (2) https://www.youtube.com/watch?v=B34iq4O5ZYI
 // (3) https://docs.unity3d.com/Manual/CollidersOverview.html
 // (4) https://noobtuts.com/unity/2d-pacman-game
+// (5) https://github.com/zigurous/unity-pacman-tutorial
 //-----------------------------------------------------------//
 
 using System.Collections.Generic;
@@ -154,7 +155,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // If energizer gets eaten, increase score, turn ghosts to blue
+    // If energizer gets eaten, increase score, enable frighten behavior
     public void EnergizerEaten(Energizer energizer)
     {
         powerUp.Play();
@@ -171,7 +172,7 @@ public class GameManager : MonoBehaviour
         Invoke(nameof(StopSound), energizer.duration);
     }
 
-    // Check the pellets if they are active
+    // Check if the pellets are active
     private bool CheckPelletCount()
     {
         foreach( Transform pellet in this.pellets)
@@ -189,6 +190,7 @@ public class GameManager : MonoBehaviour
         this.ghostMulti = 1;
     }
 
+    // Stop the power up sound. Helper Method.
     private void StopSound()
     {
         powerUp.Stop();
